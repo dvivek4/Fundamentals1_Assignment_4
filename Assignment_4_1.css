@@ -1,0 +1,12 @@
+.content{
+	position:relative;	
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+	 height: 400px;
+	
+	
+		}
+		.content:hover {
+    color: hotpink;
+}

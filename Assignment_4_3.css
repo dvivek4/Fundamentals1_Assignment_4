@@ -1,0 +1,40 @@
+body{
+				background-image: url(bgimage.jpg);
+				}.gallery {
+    
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 200px;
+	padding:50px;
+	margin:50px;
+	-webkit-transition: width 3s, height 3s, -webkit-transform 2s;
+    transition: width 3s, height 3s, transform 2s;
+}
+
+
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+	-webkit-transition: width 3s, height 3s, -webkit-transform 2s;
+    transition: width 3s, height 3s, transform 2s;
+	
+}
+
+.gallery img:hover {
+    border: 10px solid #777;
+width: 500px;
+	height:400px;
+-webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);}
+	
+
+<!--div:hover {
+    width: 500px;
+	height:400px;
+}-->
+.desc {
+    padding: 15px;
+    text-align: center;border: 10px solid #777;
+}
